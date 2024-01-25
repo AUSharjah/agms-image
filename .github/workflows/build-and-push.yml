@@ -36,5 +36,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ github.actor }}/agms:${{ steps.date.outputs.date }}
-            ghcr.io/${{ github.actor }}/agms:latest
+            ghcr.io/ausharjah/agms:${{ steps.date.outputs.date }}
+            ghcr.io/ausharjah/agms:latest
